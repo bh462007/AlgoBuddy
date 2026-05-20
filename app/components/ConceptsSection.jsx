@@ -282,7 +282,7 @@ export default function ConceptsSection() {
               </p>
               <Link
                 href={c.cta.href}
-                className="inline-flex items-center gap-2 h-[46px] px-7 rounded-full bg-[#1a1a1a] dark:bg-white text-white dark:text-[#1a1a1a] text-[15px] font-bold hover:bg-[#a435f0] dark:hover:bg-[#a435f0] dark:hover:text-white transition-all duration-200"
+                className="inline-flex items-center gap-2 h-[46px] px-7 rounded-full bg-white dark:bg-[#1a1a1a] text-[#1a1a1a] dark:text-white text-[15px] font-bold hover:bg-[#a435f0] dark:hover:bg-[#a435f0] dark:hover:text-white transition-all duration-200"
               >
                 {c.cta.label}
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
@@ -313,7 +313,7 @@ export default function ConceptsSection() {
             </p>
             <Link
               href="/visualizer"
-              className="inline-flex items-center gap-2 h-[46px] px-7 rounded-full bg-[#1a1a1a] dark:bg-white text-white dark:text-[#1a1a1a] text-[15px] font-bold hover:bg-[#a435f0] dark:hover:bg-[#a435f0] dark:hover:text-white transition-all duration-200"
+              className="inline-flex items-center gap-2 h-[46px] px-7 rounded-full bg-white dark:bg-[#1a1a1a] text-[#1a1a1a] dark:text-white text-[15px] font-bold hover:bg-[#a435f0] dark:hover:bg-[#a435f0] dark:hover:text-white transition-all duration-200"
             >
               Start learning
               <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth={2.5} viewBox="0 0 24 24">
