@@ -4,6 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { UserProvider } from "@/features/user/UserContext";
 import ClientLayoutWrapper from "@/app/components/ui/ClientLayoutWrapper";
 import BackToTop from "@/app/components/ui/backtotop";
+import VoiceAgent from "@/app/components/ui/VoiceAgent";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
@@ -125,6 +126,7 @@ export default async function RootLayout({ children }) {
           </ClientLayoutWrapper>
         </UserProvider>
       <BackToTop />
+      <VoiceAgent />
         <SpeedInsights />
       </body>
     </html>
